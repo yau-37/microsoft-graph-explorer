@@ -32,7 +32,7 @@
     "@angular/compiler-cli": "^4.1.2",
     "fast-csv": "2.4.0",
     "tslint": "^5.4.3",
-    "typescript": "~2.3.0"
+    "typescript": "^2.4.0"
   },
   "dependencies": {
     "@angular/animations": "^4.1.2",

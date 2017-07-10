@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AppComponent } from "./app.component";
 import { GraphApiCall } from "./base";
-import { Response } from "@angular/http"
+import { Response, Headers } from "@angular/http"
 import { getRequestBodyEditor, getJsonViewer, getAceEditorFromElId } from "./api-explorer-jseditor";
 import { checkHasValidAuthToken, isAuthenticated } from "./auth";
 import { isImageResponse, insertHeadersIntoResponseViewer, handleHtmlResponse, handleXmlResponse, handleJsonResponse, showResults, handleTextResponse, getContentType } from "./response-handlers";
